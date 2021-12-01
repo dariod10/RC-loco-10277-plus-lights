@@ -1,7 +1,8 @@
 # RC-loco-10277-plus-lights
 This is Pybricks code for Powered UP train HUB 
+
 Designed for LEGO 10277, but applicable to any other locomotive using LEGO Powered Up-kontrola brzine rel. %
- **********Not for beginners**********
+
 HUB PORT B for LEDs          
 Idea:
  The lighting circuit is presented to the HUB as a DCmotor (not as a Light) because it gives the possibility of changing the polarity.
