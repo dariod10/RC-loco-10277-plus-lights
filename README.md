@@ -1,5 +1,6 @@
 # RC-loco-10277-plus-lights
-This is Pybricks code for Powered UP train HUB 
+This is Pybricks code for Powered UP train HUB
+Recomended source for better speed control: krork_ml_post.py
 
 Designed for LEGO 10277, but applicable to any other locomotive using LEGO Powered Up-kontrola brzine rel. %
 
