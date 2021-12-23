@@ -65,14 +65,14 @@ while True:
 		lastPressed = pressed
 		firstLoop = 0
 
-	#increase/decrease speed variable between -10 and 10
+	#increase/decrease speed variable between -10 and 10 in 5 steps
 	if Button.LEFT_PLUS in pressed and not (Button.LEFT_PLUS in lastPressed):
 		if speed < maxSpeed:
-			speed = speed + 1
+			speed = speed + 2
 
 	if Button.LEFT_MINUS in pressed and not (Button.LEFT_MINUS in lastPressed):
 		if speed > -maxSpeed:
-			speed = speed - 1
+			speed = speed - 2
 
 	#emergency stop
 	if Button.LEFT in pressed:
@@ -80,11 +80,11 @@ while True:
 		
 	#Light mod fw-bw-stop 
 	if speed > 0:
-		light = 70
+		light = 100
 	elif speed < 0:
-		light = -70
+		light = -100
 	else:
-		light = 20
+		light = 50
 
 	#Light on-off
 	if Button.RIGHT_PLUS in pressed:
